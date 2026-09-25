@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-mediastack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mediastack MCP — wraps Mediastack API (api.mediastack.com/v1)",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-mediastack": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "mediastack"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-mediastack"
+    "url": "git+https://github.com/pipeworx-io/mcp-mediastack.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-46486215541f069bc512dd447586d31a2f54a8c7e63ed06b662b4a8caa7a6ade",
+    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
   }
 }
