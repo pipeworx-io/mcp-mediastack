@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-mediastack",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Mediastack MCP — wraps Mediastack API (api.mediastack.com/v1)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-9e622e17d166e59be9b53334a76986d703f6da88d50e6f49493bc1fadef7b4ea",
-    "sourceCommit": "6182c4cfebddb94950e060b5d2fca18f18ad1aca"
+    "sourceHash": "v1-c4288d222b641d84df341034040124b3c045b117125d96210fbf390372f40687",
+    "sourceCommit": "ba9dd6df5992aeb16ef2425ee86d1752c34ca636"
   }
 }
