@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-mediastack",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Mediastack MCP — wraps Mediastack API (api.mediastack.com/v1)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "mediastack",
     "gatewaySlug": "mediastack",
-    "sourceHash": "v1-f141de6e5a5418d4de44bc1fbc518a8b9dd9d25e24dcdd0404141c75918d11d7",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-fc62515d7483918e421ae3c11b5da6285eb883bce7f66c18c21c911588e8934c",
+    "sourceCommit": "56cf550e46fed96c0101a3877ccaf8357eecf016"
   }
 }
