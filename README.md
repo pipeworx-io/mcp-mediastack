@@ -1,15 +1,15 @@
 # mcp-mediastack
 
-Mediastack MCP — wraps Mediastack API (api.mediastack.com/v1)
+Unofficial Mediastack MCP — wraps Mediastack API (api.mediastack.com/v1)
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1865+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 2006+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `search_news` | Search news articles by keywords. Optionally filter by category (business, technology, science, health, sports, entertainment, general), country (ISO2 codes), or language. Returns headlines, descriptions, sources, and published dates. |
-| `latest_news` | Get the latest news headlines. Optionally filter by category, country, or language. Returns the most recent articles with titles, descriptions, sources, and URLs. |
+| `mediastack_search_news` | Search news articles by keywords. Optionally filter by category (business, technology, science, health, sports, entertainment, general), country (ISO2 codes), or language. Returns headlines, descriptions, sources, and published dates. |
+| `mediastack_latest_news` | Get the latest news headlines. Optionally filter by category, country, or language. Returns the most recent articles with titles, descriptions, sources, and URLs. |
 
 ## Quick Start
 
@@ -55,7 +55,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1865+ data sources. The
+Both URLs reach the same gateway and the same 2006+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 

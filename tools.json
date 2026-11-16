@@ -1,6 +1,6 @@
 [
   {
-    "name": "search_news",
+    "name": "mediastack_search_news",
     "description": "Search news articles by keywords. Optionally filter by category (business, technology, science, health, sports, entertainment, general), country (ISO2 codes), or language. Returns headlines, descriptions, sources, and published dates.",
     "inputSchema": {
       "type": "object",
@@ -37,7 +37,7 @@
     }
   },
   {
-    "name": "latest_news",
+    "name": "mediastack_latest_news",
     "description": "Get the latest news headlines. Optionally filter by category, country, or language. Returns the most recent articles with titles, descriptions, sources, and URLs.",
     "inputSchema": {
       "type": "object",
